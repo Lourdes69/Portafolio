@@ -1,0 +1,95 @@
+
+.perfil{
+	display: flex;
+	padding: 5rem;
+	margin-top: 5rem;
+	margin-left: 2rem;
+
+}
+
+.perfil__img{
+	width: 50%;
+	display: flex;
+	justify-content: center;
+	flex-shrink: 2;
+	
+}
+
+.perfil__info{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.perfil__texto{
+	font-family: 'Bacasime Antique', serif;
+	font-size: 20px;
+	line-height: 32px;
+	font-weight: 400;
+	color: black;
+}
+
+.perfil__titulo{
+	display: flex;
+	justify-content: center; 
+ 	font-family: 'Bacasime Antique', serif;
+ 	font-size: 40px;
+	font-weight: 400;
+	color:#76D7C4;
+	margin-top: 0;
+}
+
+
+@media screen and (max-width: 768px){
+	.perfil{
+		flex-wrap: wrap;
+		margin: 4rem;
+		text-align: center;
+	}
+	.perfil__img{
+		flex-wrap: wrap;
+		margin-left: 4rem;
+		margin-right: 1rem;
+
+	}
+	.perfil__img img{
+		border-radius: 999px;
+	}
+	.perfil__titulo{
+		margin-top: 2rem;
+		 font-size: 25px;
+		 font-weight: 400;
+		
+	}
+	.perfil__texto{
+		line-height: 30px;
+		
+	}
+	.perfil__texto h3{
+		font-size: 18px;
+	}
+	.perfil__texto p{
+		font-size: 15px;
+		font-weight: 600;
+	}
+}
+
+@media screen and (max-width: 460px){
+	.perfil{
+	padding:0;
+	}
+	.perfil__titulo{
+		font-size: 20px;
+		
+	}
+	.perfil__texto h3{
+		font-size: 15px;
+	}
+	.perfil__texto p{
+		font-size: 13px;
+	}
+	.perfil__texto{
+		line-height: 25px;
+	}
+
+}

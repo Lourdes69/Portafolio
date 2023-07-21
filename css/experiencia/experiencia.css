@@ -1,0 +1,17 @@
+
+.experiencia{
+	display: flex;
+	flex-direction: column;
+	padding: 2rem;
+	margin: 2rem;
+}
+
+
+
+@media screen and (max-width: 768px){
+	.experiencia{
+		width: 100%;
+		text-align: center;
+	}
+
+}

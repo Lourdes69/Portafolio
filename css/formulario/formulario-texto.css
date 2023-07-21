@@ -1,0 +1,16 @@
+
+.formulario__texto{
+	display: flex;
+	flex-direction: column;
+	font-family: "Raleway";
+	font-weight: 700;
+	margin-top: 3rem;
+}
+
+@media screen and (max-width: 768px){
+	.formulario__texto{
+		flex-wrap: wrap;
+		margin-top: 2rem;
+		margin-left: 1rem;
+	}
+}

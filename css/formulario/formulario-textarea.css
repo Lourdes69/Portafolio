@@ -1,0 +1,17 @@
+.formulario__textarea{
+	color: #333;
+	background: #f0f0f0;
+	border: 1px solid #ebebeb;
+	border-radius: 5px;
+	font-size: 1rem;
+	padding: 1rem;
+	letter-spacing: 0;
+	font-weight: 600;
+	resize: none;
+}
+
+@media screen and (max-width: 500px){
+	.formulario__textarea{
+		max-width: 200px;
+	}
+}

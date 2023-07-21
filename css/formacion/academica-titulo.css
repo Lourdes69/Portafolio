@@ -1,0 +1,12 @@
+
+.academica__udemy{
+	height: 133px;
+	padding-top: 0.5rem;
+	padding-right: 1rem;
+}
+
+@media screen and (max-width: 768px){
+	.academica__titulo{
+		margin-right: 4rem;
+	}
+}

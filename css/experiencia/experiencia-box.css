@@ -1,0 +1,23 @@
+
+.experiencia__box{
+	display: flex;
+	flex-direction: column;
+	width: 70%;
+}
+
+
+
+@media screen and (max-width: 768px){
+	.experiencia__box{
+		width: 70%;
+		margin-left: 3rem;
+		margin-right: 3rem;
+	}
+}
+
+
+@media screen and (max-width: 500px){
+	.experiencia__box{
+		margin-left: 0;
+	}
+}

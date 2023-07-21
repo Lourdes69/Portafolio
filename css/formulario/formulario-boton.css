@@ -1,0 +1,33 @@
+
+.formulario__boton{
+	display: flex;
+	justify-content: center;
+	width: 30%;
+	margin-top: 1rem;
+	background: #7843e9;
+	color: #fff;
+	font-weight: 700;
+	border-radius: 5px;
+	box-shadow: 0 5px 15px 0 rgb(0 0 0 / 15%);
+	cursor: pointer;
+	height: 30px;
+	align-items: center;
+	transition: 0.8s;
+
+}
+
+.formulario__boton:hover{
+	color: black;
+	background-color: orange;
+	border: none;
+	
+}
+
+@media screen and (max-width: 500px){
+	.formulario__boton{
+		font-size: 10px;
+		width: 100px;
+		border-radius: 3px;
+		margin-left: 0.5rem;
+	}
+}

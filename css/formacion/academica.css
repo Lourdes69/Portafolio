@@ -1,0 +1,17 @@
+
+.academica{
+	display: flex;
+	flex-wrap: wrap;
+   justify-content: center;
+    padding: 2rem 1rem;
+    margin-top:  1rem;
+
+}
+
+
+@media screen and (max-width: 768px){
+	.academica{
+		width: 100%;
+		margin: 1rem;
+	}
+}

@@ -1,0 +1,9 @@
+
+.academica__curso__lista{
+	display: flex;
+	flex-direction: column;
+	width: 180px;
+	height: 160px;
+	padding-right: 2rem;
+	
+}

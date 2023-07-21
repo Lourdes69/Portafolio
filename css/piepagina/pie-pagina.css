@@ -1,0 +1,21 @@
+
+.pie__pagina{
+	display: flex;
+	margin: 2rem;
+}
+
+.redes__item{
+	padding-right: 1rem;
+
+}
+
+@media screen and (max-width: 768px){ 
+	.pie__pagina{
+	text-align: center;
+	flex-wrap: wrap;
+	margin: 1rem;
+}
+.pie__texto p{
+	font-size: 12px;
+}
+}

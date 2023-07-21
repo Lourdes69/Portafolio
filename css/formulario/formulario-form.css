@@ -1,0 +1,28 @@
+
+.formulario__form{
+	display: flex;
+	flex-direction: column;
+	margin: 2rem auto 2rem auto;
+	box-shadow: rgb(100 100 111 / 20%) 0 7px 29px 0;
+	background: #ffffff;
+	padding: 3rem;
+	max-width: 80rem;
+	border-radius: 5px;
+	
+}
+
+.formulario__form label{
+	display: block;
+    margin-top: 20px;
+    margin-bottom: 8px;
+    color: #000000;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+@media screen and (max-width: 500px) {
+	.formulario__form{
+		
+	}
+}
+

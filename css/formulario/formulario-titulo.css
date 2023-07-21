@@ -1,0 +1,14 @@
+
+.formulario__titulo{
+	display: flex;
+	justify-content: center;
+	font-size: 2rem;
+	font-weight: 700;
+	margin-bottom: 1.5rem;
+}
+
+@media screen and (max-width: 768px){
+	.formulario__titulo{
+	font-size: 1.4rem;
+	}
+}

@@ -1,0 +1,31 @@
+.input-container--invalid {
+    margin-bottom: 0.5rem;
+}
+
+.input-container--invalid .input {
+    border: 1px solid red;
+    border-radius: 7px;
+}
+
+.input-container--invalid  {
+    color: rgb(210, 28, 28);
+}
+
+.input-container--invalid .input-message-error {
+    color: rgb(231, 29, 29);
+    display: block;
+    margin-top: 0.5rem;
+    padding-left: 0.5rem;
+
+}
+
+
+.input-message-error {
+    display: none;
+}
+
+@media screen and (max-width: 500px){
+    .input-message-error{
+        font-size: 10px;
+    }
+}

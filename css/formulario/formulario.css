@@ -1,0 +1,11 @@
+
+.formulario{
+	background-image: url(../../assets/contacto.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	margin-top: 1rem;
+	width: 100%
+	
+	
+}

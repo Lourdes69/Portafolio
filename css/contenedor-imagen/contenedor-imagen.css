@@ -1,0 +1,16 @@
+
+.content__imag{
+	background-image: url(../../assets/contenedor.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+}
+
+
+
+@media screen and (max-width: 768px){
+.content__imag{
+	width: 100%;
+}
+}

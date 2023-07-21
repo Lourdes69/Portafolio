@@ -1,0 +1,24 @@
+
+.academica__cursos__box{
+margin-right: 5rem;
+background-color: white;
+border-radius: 10px;
+border: 4px inset black;
+
+}
+
+
+.academica__cursos__box:hover {
+    transform: scale(1.1);
+	color: rgb(255, 174, 127);
+}
+
+
+
+@media screen and (max-width: 768px){
+	
+	.academica__cursos__box{
+		margin-bottom: 2rem;
+		margin-left: 1rem;
+	}
+}

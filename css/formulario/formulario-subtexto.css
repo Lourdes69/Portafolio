@@ -1,0 +1,14 @@
+
+.formulario__subtexto{
+	color: black;
+	font-size: 1rem;
+	font-weight: 500;
+	margin-top: 0;	
+}
+
+@media screen and (max-width: 768px){
+	.formulario__subtexto{
+		color: black;
+		font-size: 0.70rem;
+	}
+}

@@ -1,0 +1,18 @@
+
+.experiencia__titulo{
+	font-family:'Raleway';
+	font-size: 25px;
+	font-weight: 700;
+	margin-top: 5rem;
+}
+
+
+@media screen and (max-width: 768px){
+
+	.experiencia__titulo{
+		font-size: 20px;
+		margin-top: 3rem;
+		margin-right: 8rem;
+	}
+}
+
